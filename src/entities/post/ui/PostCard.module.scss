@@ -1,0 +1,46 @@
+.card {
+  max-width: 62.5rem;
+  max-height: 18.75rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}
+
+.title {
+  margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.25rem !important;
+  }
+}
+
+.body {
+  font-size: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem !important;
+  }
+}
+
+.tags {
+  margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.reactions {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
+}
